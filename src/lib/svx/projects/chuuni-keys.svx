@@ -1,5 +1,6 @@
 <script>
     import PostHeader from "../../components/post-header.svelte";
+    import Carousel from "$lib/components/carousel.svelte";
 </script>
 
 <PostHeader 
@@ -25,3 +26,20 @@ It comes with a built in editor to make your own levels (charts), which can be p
 the chart listing.
 
 The chart listing is a place to browse, share, and download charts made by other players.
+
+<Carousel
+    photos={[
+        {
+            src: "/img/projects/chuuni-keys/editor.png",
+            alt: "The level editor."
+        },
+        {
+            src: "/img/projects/chuuni-keys/chart-listing.png",
+            alt: "The online chart listing."
+        },
+        {
+            src: "/img/projects/chuuni-keys/early-dev.png",
+            alt: "An early development screenshot."
+        },
+    ]}
+/>

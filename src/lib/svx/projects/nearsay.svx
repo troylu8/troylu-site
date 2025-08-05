@@ -21,4 +21,23 @@
 
 Place notes on a map of the world for others to find - you can only place notes
 near your current location!
+
 Notes disappear after a week, but can live longer via likes, dislikes, and views.
+
+<div class="img-cont">
+    <img src="/img/projects/nearsay/map.png" alt="nearsay map showcase">
+    <img src="/img/projects/nearsay/post.png" alt="post screenshot">
+    <img src="/img/projects/nearsay/place-note.png" alt="nearsay user placing note">
+</div>
+
+
+<style>
+    .img-cont {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+    }
+    img {
+        height: 300px;
+    }
+</style>

@@ -1,5 +1,6 @@
 <script>
     import PostHeader from "../../components/post-header.svelte";
+    import Carousel from "$lib/components/carousel.svelte";
 </script>
 
 <PostHeader 
@@ -7,3 +8,29 @@
     date="Summer 2025"
 />
 
+It was fun! 
+
+They had me rewrite a legacy internal website using Flask
+and Jinja. The original site was *old* (it was in classic ASP).
+
+Upon deployment, unexpected incompatibility issues arose with connecting 
+to the database (an ancient MS Access database they were in the 
+process of migrating away from). 
+
+It was decided that the site would be rewritten again using ASP.NET Core.
+
+Although I loved trying new things like Flask and .NET, there was one new
+thing I didn't like - the windowless basement cubicle. 
+
+<Carousel
+    photos={[
+        {
+            src: "/img/experiences/aqmd2025/astd-graph.jpg",
+            alt: "A slide from a presentation I gave on my internship project."
+        },
+        {
+            src: "/img/experiences/aqmd2025/astd-issues.jpg",
+            alt: "Another slide from that presentation."
+        },
+    ]}
+/>

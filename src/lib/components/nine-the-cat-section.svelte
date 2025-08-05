@@ -27,12 +27,12 @@
 </script>
 
 <h1> Nine the cat </h1>
-<p>This is my family cat, Nine. Her hobbies are sleeping, eating, sleeping, and sleeping.</p>
-<p><span id="date"> [ { getFormattedDate() } ] </span> Today's cat picture: </p>
+<p>This is our family cat, Nine. Her hobbies are sleeping, eating, sleeping, and sleeping.</p>
+<p><span class="date"> [ { getFormattedDate() } ] </span> Today's cat picture: </p>
 <section>
     <img src={getTodaysPic()} height={300} alt="Nine the cat" />
     <button class="main-btn" onclick={onPet}> Pet her </button>
-    <p id="purr-text" style="animation: none;" bind:this={purrText}> * she gives you a soft purr </p>
+    <p class="purr-text" style="animation: none;" bind:this={purrText}> * she gives you a soft purr </p>
 </section>
 
 <style>
@@ -42,7 +42,7 @@
         align-items: center;
         gap: 16px;
     }
-    #purr-text {
+    .purr-text {
         transition: 200ms;
         user-select: none;
         opacity: 0;
@@ -63,7 +63,7 @@
         }
     }
     
-    #date {
+    .date {
         font-family: monospace;
         font-size: large;
         margin-right: 12px;
