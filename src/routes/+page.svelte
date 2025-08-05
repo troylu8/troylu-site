@@ -1,8 +1,6 @@
 <script>
-    import NineTheCatSection from "../components/nine-the-cat-section.svelte";
-
+    import NineTheCatSection from "$lib/components/nine-the-cat-section.svelte";
 </script>
-
 
 <h1>Hey!!</h1>
 <p>
@@ -16,7 +14,7 @@
     Recently, I've been getting really into jpop music. <br>
     It's full of energy in a unique way.
 </p>
-<nav>
+<nav data-sveltekit-preload-data="hover">
     <a class="main-btn" target="_blank" href="/resume.pdf"> Resume </a>
     <a class="main-btn" href="/experiences">Experiences </a>
     <a class="main-btn" href="/projects"> Projects </a>

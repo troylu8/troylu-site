@@ -1,13 +1,11 @@
 <script lang="ts">
-	import favicon from '$lib/assets/favicon.svg';
-    import Sidebar from '../components/sidebar.svelte';
+    import Sidebar from '$lib/components/sidebar.svelte';
 	let { children } = $props();
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+    <title>Troy Lu</title>
 </svelte:head>
-
 
 <div id="content-outer">
     <header> Troy Lu </header>

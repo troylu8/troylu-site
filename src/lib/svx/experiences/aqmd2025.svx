@@ -1,0 +1,9 @@
+<script>
+    import PostHeader from "../../components/post-header.svelte";
+</script>
+
+<PostHeader 
+    title="Software Development Intern, South Coast AQMD"
+    date="Summer 2025"
+/>
+

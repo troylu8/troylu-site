@@ -1,0 +1,11 @@
+<script>
+    import Aqmd2025 from "$lib/svx/experiences/aqmd2025.svx";
+</script>
+
+<svelte:head>
+    <title>Troy Lu | Experiences</title>
+</svelte:head>
+
+# Experiences
+
+<Aqmd2025 />

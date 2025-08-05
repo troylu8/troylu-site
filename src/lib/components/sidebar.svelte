@@ -12,7 +12,7 @@
     <p id="phone-number"> (909) 247 0187 </p>
     <p id="email"> troylu8@gmail.com </p>
     
-    <nav id="site-links">
+    <nav id="site-links" data-sveltekit-preload-data="hover">
         <a href="/"> Hey!! </a>
         <a href="/experiences"> Experiences </a>
         <a href="/projects"> Projects </a>

@@ -1,0 +1,27 @@
+<script>
+    import PostHeader from "../../components/post-header.svelte";
+</script>
+
+<PostHeader 
+    title="chuuni keys - Rhythm Game Level Maker + Online Platform"
+    date="Summer 2025"
+    links={[
+        {
+            icon: "chuuni-keys.jpg",
+            href: "https://chuuni-keys.troylu.com",
+            label: "chuuni-keys.troylu.com",
+        },
+        {
+            icon: "github.svg",
+            href: "https://github.com/troylu8/chuuni-keys",
+            label: "source code",
+        },
+    ]}
+/>
+
+A rhythm game where you tap your keyboard to the beat. 
+
+It comes with a built in editor to make your own levels (charts), which can be published to
+the chart listing.
+
+The chart listing is a place to browse, share, and download charts made by other players.

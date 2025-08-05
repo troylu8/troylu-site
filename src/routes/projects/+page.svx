@@ -1,0 +1,13 @@
+<script>
+    import ChuuniKeys from "../../lib/svx/projects/chuuni-keys.svx";
+    import Nearsay from "../../lib/svx/projects/nearsay.svx";
+</script>
+
+<svelte:head>
+    <title>Troy Lu | Projects</title>
+</svelte:head>
+
+# Projects
+
+<ChuuniKeys />
+<Nearsay />
