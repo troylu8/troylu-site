@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1:not(:first-child) {
+    margin-top: 48px;
+}
+
+p {
+    margin: 12px 0;
+}
+
+.main-btn {
+    border: solid 2px black;
+    padding: 4px 12px;
+    border-radius: 8px;
+}
