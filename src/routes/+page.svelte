@@ -3,6 +3,11 @@
     import PageHeader from "$lib/components/page-header.svelte";
 </script>
 
+<svelte:head>
+    <title>Troy Lu</title>
+</svelte:head>
+
+
 <PageHeader showBackArrow={false}> Hey!! </PageHeader>
 <p>
     I'm a computer science student who isn't afraid to learn new things.

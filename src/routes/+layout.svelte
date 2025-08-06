@@ -4,10 +4,6 @@
 	let { children } = $props();
 </script>
 
-<svelte:head>
-    <title>Troy Lu</title>
-</svelte:head>
-
 <div id="content-outer">
     <header> <a href="/"> Troy Lu </a> </header>
     

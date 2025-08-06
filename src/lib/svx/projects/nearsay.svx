@@ -35,7 +35,6 @@ Notes disappear after a week, but can live longer via likes, dislikes, and views
 <style>
     .img-cont {
         display: flex;
-        /* justify-content: center; */
         gap: 16px;
         
         overflow: scroll;
