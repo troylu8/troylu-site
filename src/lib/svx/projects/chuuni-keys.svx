@@ -4,7 +4,8 @@
 </script>
 
 <PostHeader 
-    title="chuuni keys - Rhythm Game Level Maker + Online Platform"
+    title="chuuni keys"
+    subtitle="Rhythm Game Level Maker + Online Platform"
     date="Summer 2025"
     links={[
         {

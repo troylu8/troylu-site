@@ -26,9 +26,9 @@
     }
 </script>
 
-<h1> Nine the cat </h1>
+<h2> Nine the cat </h2>
 <p>This is our family cat, Nine. Her hobbies are sleeping, eating, sleeping, and sleeping.</p>
-<p><span class="date"> [ { getFormattedDate() } ] </span> Today's cat picture: </p>
+<p><span class="date"> { getFormattedDate() } </span> Today's cat picture: </p>
 <section>
     <img src={getTodaysPic()} height={300} alt="Nine the cat" />
     <button class="main-btn" onclick={onPet}> Pet her </button>
@@ -64,7 +64,6 @@
     }
     
     .date {
-        font-family: monospace;
         font-size: large;
         margin-right: 12px;
     }

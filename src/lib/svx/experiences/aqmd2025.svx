@@ -4,14 +4,15 @@
 </script>
 
 <PostHeader 
-    title="Software Development Intern, South Coast AQMD"
+    title="South Coast AQMD"
+    subtitle="Software Development Intern"
     date="Summer 2025"
 />
 
 It was fun! 
 
 They had me rewrite a legacy internal website using Flask
-and Jinja. The original site was *old* (it was in classic ASP).
+and Jinja. The original site was *old* (written in classic ASP).
 
 Upon deployment, unexpected incompatibility issues arose with connecting 
 to the database (an ancient MS Access database they were in the 

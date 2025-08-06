@@ -8,10 +8,12 @@
 </p>
 <p>
     Full-stack web development is what excites me the most. <br>
-    Check out the cool things I've built over at #projects!
+    Check out the cool things I've built over at 
+    <a class="inline-link" href="/projects" data-sveltekit-preload-data="hover">#projects</a> 
+    !
 </p>
 <p>
-    Recently, I've been getting really into jpop music. <br>
+    Lately, I've been really into jpop and vocaloid music. <br>
     It's full of energy in a unique way.
 </p>
 <nav data-sveltekit-preload-data="hover">
@@ -22,3 +24,19 @@
 
 
 <NineTheCatSection />
+
+<style>
+    nav {
+        margin-block: 36px;
+        display: flex;
+        gap: 18px;
+        justify-content: center;
+    }
+    nav > a {
+        font-size: large;
+    }
+    
+    .inline-link {
+        font-family: inherit;
+    }
+</style>

@@ -47,6 +47,7 @@
     
     img {
         object-fit: cover;
+        border: solid 2px var(--foreground);
     }
     
     figcaption {
@@ -55,6 +56,6 @@
         font-size: small;
     }
     .tracker {
-        font-family: monospace;
+        font-family: JetBrainsMono, monospace;
     }
 </style>

@@ -3,7 +3,8 @@
 </script>
 
 <PostHeader 
-    title="nearsay - Geolocation-Based Message Board + Chat"
+    title="nearsay"
+    subtitle="Geolocation-Based Message Board + Chat"
     date="Jan 2025 - Apr 2025"
     links={[
         {

@@ -1,0 +1,86 @@
+:root {
+    --foreground: #4a4e69;
+    --background: #f3f4f5;
+    --accent: #364fa1;
+    --accent2: #744a8c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background: var(--accent);
+    color: var(--background);
+}
+
+@font-face {
+    font-family: Excalifont;
+    src: url("fonts/Excalifont-Regular.woff2");
+}
+@font-face {
+    font-family: JetBrainsMono;
+    src: url("fonts/JetBrainsMono-Regular.woff2");
+}
+@font-face {
+    font-family: IBMPlexSerif;
+    src: url("fonts/IBMPlexSerif-Regular.woff2");
+}
+
+body {
+    font-family: IBMPlexSerif, serif;
+    background-color: var(--background);
+    color: var(--foreground);
+}
+
+h1,
+h2,
+a,
+button {
+    font-family: JetBrainsMono, monospace;
+    color: var(--accent);
+}
+
+h1 {
+    color: var(--accent2);
+}
+h1::before {
+    content: "#";
+    margin-right: 12px;
+}
+
+button:hover,
+a:hover {
+    filter: brightness(135%);
+    cursor: pointer;
+}
+
+p {
+    margin: 12px 0;
+}
+
+.main-btn {
+    padding: 4px 12px;
+    border-radius: 8px;
+    border: solid 2px var(--foreground);
+    background-color: var(--foreground);
+    color: var(--background);
+    text-decoration: none;
+}
+
+img {
+    border-radius: 4px;
+}
+
+.date {
+    font-family: JetBrainsMono, monospace;
+    color: var(--accent2);
+}
+.date::before {
+    content: "[ ";
+}
+.date::after {
+    content: " ]";
+}

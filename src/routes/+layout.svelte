@@ -1,4 +1,5 @@
 <script lang="ts">
+    import "$lib/global.css";
     import Sidebar from '$lib/components/sidebar.svelte';
 	let { children } = $props();
 </script>
@@ -21,13 +22,16 @@
 
 <style>
     header {
-        font-size: 48px;
-        margin-left: 15cqw;
+        width: 100%;
+        text-align: center;
+        font-size: 52px;
+        font-family: Excalifont;
+        /* margin-left: 15cqw; */
         margin-bottom: 16px;
     }
     
     #content-outer {
-        max-width: 800px;
+        width: 800px;
         margin: 30px auto;
         padding: 12px;
     }
