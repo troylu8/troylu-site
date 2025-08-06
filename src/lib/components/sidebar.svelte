@@ -72,4 +72,16 @@
         font-weight: bold;
         color: var(--accent2);
     }
+    
+    @media (max-width: 800px) {
+        aside {
+            position: static;
+            align-items: center;
+        }
+        
+        .site-links-cont {
+            position: fixed;
+            display: none;
+        }
+    }
 </style>

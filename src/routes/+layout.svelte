@@ -9,7 +9,7 @@
 </svelte:head>
 
 <div id="content-outer">
-    <header> Troy Lu </header>
+    <header> <a href="/"> Troy Lu </a> </header>
     
     <div id="content-inner">
         <Sidebar />
@@ -25,19 +25,29 @@
         width: 100%;
         text-align: center;
         font-size: 52px;
-        font-family: Excalifont;
-        /* margin-left: 15cqw; */
         margin-bottom: 16px;
+    }
+    header > a {
+        font-family: Excalifont;
+        text-decoration: none;
+        color: var(--foreground);
     }
     
     #content-outer {
-        width: 800px;
-        margin: 30px auto;
+        max-width: 770px;
+        margin: 0 auto;
         padding: 12px;
     }
     
     #content-inner {
         display: flex;
         gap: 32px;
+    }
+    
+    @media (max-width: 800px) {
+        #content-inner {
+            flex-direction: column;
+            gap: 12px;
+        }
     }
 </style>

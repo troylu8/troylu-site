@@ -1,8 +1,9 @@
 <script>
     import NineTheCatSection from "$lib/components/nine-the-cat-section.svelte";
+    import PageHeader from "$lib/components/page-header.svelte";
 </script>
 
-<h1>Hey!!</h1>
+<PageHeader showBackArrow={false}> Hey!! </PageHeader>
 <p>
     I'm a computer science student who isn't afraid to learn new things.
 </p>
@@ -34,6 +35,13 @@
     }
     nav > a {
         font-size: large;
+    }
+    
+    @media (max-width: 500px) {
+        nav {
+            flex-direction: column;
+            align-items: center;
+        }
     }
     
     .inline-link {

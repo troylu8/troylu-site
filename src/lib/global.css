@@ -16,6 +16,16 @@
     color: var(--background);
 }
 
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background: var(--accent);
+}
+
 @font-face {
     font-family: Excalifont;
     src: url("fonts/Excalifont-Regular.woff2");
@@ -43,12 +53,17 @@ button {
     color: var(--accent);
 }
 
-h1 {
-    color: var(--accent2);
-}
 h1::before {
     content: "#";
     margin-right: 12px;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        position: sticky;
+        top: 0;
+        background-color: var(--background);
+    }
 }
 
 button:hover,

@@ -24,34 +24,45 @@
     {/if}
         
     {#if date}
-        <p class="date" style={links != undefined ? "margin-left: auto" : "" }>{ date }</p>
+        <p class="date">{ date }</p>
     {/if}
 </nav>
 
 <style>
     header {
-        margin-top: 48px;
+        margin-top: 36px;
         color: var(--accent);
     }
     h2 {
         font-size: 1.7em;
-        display: inline;
         margin-right: 12px;
     }
     .subtitle {
         font-size: 1.2em;
-        display: inline;
         font-weight: bold;
+        margin: 0;
+    }
+    header > * {
+        display: inline;
+    }
+    @media (max-width: 800px) {
+        header > * {
+            display: block;
+        }
     }
     
     nav {
         margin-top: 12px;
         margin-bottom: 24px;
         display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+    nav > * {
+        text-wrap: nowrap;
     }
     
     a {
-        margin-right: 16px;
         display: inline-flex;
         align-items: center;
         gap: 8px;
