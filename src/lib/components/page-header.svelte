@@ -23,7 +23,6 @@
     header {
         display: flex;
         justify-content: space-between;
-        gap: 36px;
         align-items: center;
         padding: 12px;
         z-index: 10;

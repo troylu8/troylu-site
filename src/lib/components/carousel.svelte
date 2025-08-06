@@ -13,11 +13,17 @@
     let currPhoto = $derived(photos[i]);
 </script>
 
+<svelte:head>
+    {#each photos as photo}
+        <link rel="preload" as="image" href={photo.src}>
+    {/each}
+</svelte:head>
+
 
 <div class="carousel">
     <CircleChevronLeft
         cursor="pointer" 
-        size={48} 
+        size={48}
         strokeWidth={1} 
         onclick={() => i = (i == 0)? photos.length - 1 : i - 1} 
     />
