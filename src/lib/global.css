@@ -26,19 +26,6 @@
     background: var(--accent);
 }
 
-@font-face {
-    font-family: Excalifont;
-    src: url("fonts/Excalifont-Regular.woff2");
-}
-@font-face {
-    font-family: JetBrainsMono;
-    src: url("fonts/JetBrainsMono-Regular.woff2");
-}
-@font-face {
-    font-family: IBMPlexSerif;
-    src: url("fonts/IBMPlexSerif-Regular.woff2");
-}
-
 body {
     font-family: IBMPlexSerif, serif;
     background-color: var(--background);
