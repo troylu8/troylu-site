@@ -18,7 +18,6 @@
     It's full of energy in a unique way.
 </p>
 <nav data-sveltekit-preload-data="hover">
-    <a class="main-btn" target="_blank" href="/resume.pdf"> Resume </a>
     <a class="main-btn" href="/experiences">Experiences </a>
     <a class="main-btn" href="/projects"> Projects </a>
 </nav>
