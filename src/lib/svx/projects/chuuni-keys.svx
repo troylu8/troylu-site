@@ -44,3 +44,9 @@ The chart listing is a place to browse, share, and download charts made by other
         },
     ]}
 />
+
+My understanding of React deepened so much after struggling with complex UI like the level editor.
+I didn't realize there were so many different ways a stale state bug can happen...
+
+For the online platform, I went for a simple Flask + SQLite setup.
+It was fun messing around with Docker to self-host on my spare laptop.

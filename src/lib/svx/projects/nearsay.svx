@@ -31,6 +31,15 @@ Notes disappear after a week, but can live longer via likes, dislikes, and views
     <img src="/img/projects/nearsay/place-note.png" alt="nearsay user placing note">
 </div>
 
+I decided on MongoDB partly for its easy to use geospatial queries, 
+but also because I was curious about the biggest non-SQL DBMS.
+
+I was worried that the free-flowing nature of MongoDB would clash with the strictness
+of Rust, but luckily using the MongoDB Rust driver was very straightforward.
+
+Since server requests happen very rapidly as users pan around the map, I
+implemented caching via Redis for repeated queries near the same geographic area.
+I was shocked when the app's performance dropped heavily, until I discovered Redis's pipelining feature.
 
 <style>
     .img-cont {
