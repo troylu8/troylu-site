@@ -38,6 +38,7 @@
         margin-right: 12px;
     }
     .subtitle {
+        display: block;
         font-size: 1.2em;
         font-weight: bold;
         margin: 0;

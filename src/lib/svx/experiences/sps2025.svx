@@ -1,0 +1,37 @@
+<script>
+    import PostHeader from "../../components/post-header.svelte";
+</script>
+
+<PostHeader 
+    title="Select Portfolio Servicing"
+    subtitle="Software Development Intern"
+    date="Fall 2025"
+/>
+
+The main project I was given was to build a "single pane of glass" dashboard for monitoring on-prem GPU servers and sending email alerts if something went wrong. 
+
+It mostly involved piecing together many different open source softwares to achieve the setup desired.
+
+<div class="img-cont">
+    <img src="/img/experiences/sps2025/gpu-monitoring-diagram.jpg" alt="The architecture of the GPU monitoring/alerting system.">
+</div>
+
+Besides that, I experimented with inspecting network packets to map out dependency relationships between internal programs.
+
+Additionally, I made some minor improvements to an internal LLM chat tool for responding to employee issues.
+
+Just like my previous internship, the open cubicles formed a sea of grey. This time, the coffee machine near my desk helped to lift my spirits a bit.
+
+<style>
+    .img-cont {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        
+        overflow: scroll;
+    }
+    img {
+        max-width: 100%;
+        width: 430px;
+    }
+</style>

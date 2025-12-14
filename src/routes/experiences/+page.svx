@@ -1,6 +1,7 @@
 <script>
     import PageHeader from "$lib/components/page-header.svelte";
     import Aqmd2025 from "$lib/svx/experiences/aqmd2025.svx";
+    import Sps2025 from "$lib/svx/experiences/sps2025.svx";
 </script>
 
 <svelte:head>
@@ -9,4 +10,5 @@
 
 <PageHeader> Experiences </PageHeader>
 
+<Sps2025 />
 <Aqmd2025 />
