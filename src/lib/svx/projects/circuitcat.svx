@@ -1,0 +1,36 @@
+<script>
+    import PostHeader from "../../components/post-header.svelte";
+</script>
+
+<PostHeader 
+    title="CircuitCat"
+    subtitle="Logic Circuit Simulation + Learning App"
+    date="Nov 2025 - Dec 2025"
+/>
+
+An educational tool for building and simulating logic circuits, complete with lessons to teach users how each logic gate works and a charming cat mascot.
+
+This app was built with a team of 4 at the University of Utah, using C++ and Qt.
+
+<div class="img-cont">
+    <img src="/img/projects/circuitcat/circuitcat.gif" alt="circuit simulator showcase">
+</div>
+
+While writing the code for the circuit simulation, I discovered that wire segments can be thought of as logic gates whose sole output (at one end of the wire) mirrors its sole input (at the other end).
+
+This realization allowed me to elegantly use a single graph traversal algorithm to update the states of all logic gates without needing to write too much additional code for dealing with wires and logic gates separately.
+
+These little moments of discovery and problem solving are what makes up the joy of programming.
+
+<style>
+    .img-cont {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        
+        overflow: scroll;
+    }
+    img {
+        height: 300px;
+    }
+</style>

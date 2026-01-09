@@ -1,6 +1,7 @@
 <script>
     import PageHeader from "$lib/components/page-header.svelte";
     import ChuuniKeys from "../../lib/svx/projects/chuuni-keys.svx";
+    import Circuitcat from "../../lib/svx/projects/circuitcat.svx";
     import Nearsay from "../../lib/svx/projects/nearsay.svx";
     import TroyluSite from "../../lib/svx/projects/troylu-site.svx";
 </script>
@@ -13,4 +14,5 @@
 
 <ChuuniKeys />
 <Nearsay />
+<Circuitcat />
 <TroyluSite />
