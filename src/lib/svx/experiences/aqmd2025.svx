@@ -5,7 +5,7 @@
 
 <PostHeader 
     title="South Coast AQMD"
-    subtitle="Software Development Intern"
+    subtitle="Software Engineer Intern"
     date="Summer 2025"
 />
 

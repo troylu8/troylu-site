@@ -4,7 +4,7 @@
 
 <PostHeader 
     title="Select Portfolio Servicing"
-    subtitle="Software Development Intern"
+    subtitle="Software Engineer Intern"
     date="Fall 2025"
 />
 

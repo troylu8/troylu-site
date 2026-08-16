@@ -1,0 +1,46 @@
+<script>
+    import PostHeader from "../../components/post-header.svelte";
+</script>
+
+<PostHeader 
+    title="Whova"
+    subtitle="Software Engineer Intern"
+    date="Summer 2026"
+/>
+
+I'm happy that I got to build features used by real users! Within 
+Whova's SaaS (about organizing events/conferences), my contributions were 
+related to the creation and printing of name badges.
+
+The most valuable experience in my opinion wasn't even about the 
+tech stack at all. Instead, it was properly using git and Gitlab on 
+a big project with many subteams. 
+
+During the initial weeks when working on my first feature,
+I put the whole thing in one merge request and was immediately told to split it up!
+
+<div class="img-cont">
+    <img src="/img/experiences/whova2026/gitlab.svg" alt="Gitlab" height="32">
+    <img src="/img/experiences/whova2026/sentry.svg" alt="Sentry" height="32">
+    <img src="/img/experiences/whova2026/datadog.svg" alt="Datadog" height="32">
+</div>
+
+Digging into live production issues reported by Sentry by inspecting logs on 
+Datadog was a new but exciting challenge. I felt like a detective tracking a case.
+
+The office had height adjustable desks. I tried to 
+improve my ergonomics by standing all day instead of sitting,
+but all that did was move the soreness from my back to my legs.
+
+<div class="img-cont">
+    <img src="/img/experiences/whova2026/whova-logo-text.png" alt="Whova" height="48">
+</div>
+
+<style>
+    .img-cont {
+        display: flex;
+        gap: 32px;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
