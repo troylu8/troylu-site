@@ -12,7 +12,7 @@
 
 <PageHeader> Projects </PageHeader>
 
+<Circuitcat />
 <ChuuniKeys />
 <Nearsay />
-<Circuitcat />
 <TroyluSite />
